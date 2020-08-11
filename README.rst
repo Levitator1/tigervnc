@@ -1,3 +1,16 @@
+About this Branch
+==================
+
+This branch adds a command-line argument called -FixedPointer. It was not
+accepted into the mainline product, but I find this feature useful because
+dynamic pointer bitmaps are broken on standard Chome OS Debian, and this
+is a workaround. When this feature is active, your pointer bitmap will not update
+(hand pointer, grab handle, etc) However, you will avoid problems with dropped 
+updates that leave your cursor being drawn with the wrong bitmap.
+
+Jose Batista
+8/11/2020
+
 About TigerVNC
 ==============
 
